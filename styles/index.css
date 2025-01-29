@@ -265,20 +265,59 @@ footer img{
 }
 .footer-media img{
   width: 40px;
-height: 40px;
+  height: 40px;
 }
 .date-1{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   text-align: center;
   width: 150px;
-  height: 45px;
+  height: 40px;
   background-color: rgb(60, 216, 232);
   border-style: none;
   border-radius: 32px;
   font-family: Raleway;
+  margin-top:-20px;
+  margin-left: 60px;
+  position: absolute;
   
+}
+.date-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 32px;
+  background-color:rgb(149, 178, 38);
+  border-style: none;
+  border-radius: 32px;
+  font-family: Raleway;
+  margin-top:-20px;
+  margin-left: 32px;
+  position: absolute;
+}
+.date-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 32px;
+  background-color:rgb(93, 88, 240);
+  border-style: none;
+  border-radius: 32px;
+  font-family: Raleway;
+  margin-top:-20px;
+  margin-left: 32px;
+  position: absolute;
+}
+.story-card-title{
+  margin-top: 40px;
+}
+.hr{
+  display:none;
 }
 @media screen and (max-width:576px) {
   .banner-container{
@@ -298,6 +337,12 @@ height: 40px;
     font-weight: 600;
     text-align: center;
   }
+  .banner-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .Enroll{
     display: flex;
     justify-content: center;
@@ -305,6 +350,13 @@ height: 40px;
   }
   .Enroll-btn{
     border-radius: 12px;
+  }
+  #View-all-btn{
+    border-radius: 12px;
+  }
+  .hr{
+    display: grid;
+    border: 0.5px solid rgb(254, 163, 1);
   }
   .story-card-larg{
     display:none;
@@ -374,13 +426,47 @@ height: 40px;
     justify-content: center;
     align-items: center;
   }
+  .date-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+    background-color:rgb(149, 178, 38);
+    border-style: none;
+    border-radius: 32px;
+    font-family: Raleway;
+    margin-top:-20px;
+    margin-left: 32px;
+    position: absolute;
+  }
+  .date-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+    background-color:rgb(93, 88, 240);
+    border-style: none;
+    border-radius: 32px;
+    font-family: Raleway;
+    margin-top:-20px;
+    margin-left: 32px;
+    position: absolute;
+  }
+  .small-card-container h3{
+    padding: 0px 12px 0px 12px;
+    font-size: 15px;
+    font-weight: 700;
+  }
   .story h2{
     font: size 36px;
     font-weight: 700;
   }
   .foot-item-container{
     display: grid;
-    /* grid-template-rows: repeat(1fr); */
     background-color: rgb(1, 172, 253);
     height: 1000px;
   }
