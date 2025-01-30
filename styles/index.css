@@ -177,6 +177,37 @@ p{
   width: 100%;
   border-radius: 12px 12px 0px 0px;
 }
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.arrow-left{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  transform: rotate(-40deg);
+}
+.arrow-Right{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  transform: rotate(135deg);
+}
 #View-all-btn{
   text-align: center;
   width: 120px;
@@ -205,7 +236,7 @@ p{
 }
 footer{
   height: 500px;
-  background-color: rgb(1, 172, 253);
+  background-color: rgb(22, 236, 251);
 }
 footer h2{
   font-size: 40px;
@@ -253,12 +284,11 @@ footer img{
   text-align: left;
 }
 .Dot{
-  border: 2px solid black;
-  width: 20px;
-  gap: -15px;
-  margin-top: -20px;
+  border: 1.5px solid black;
+  width: 25px;
 }
 .dot-container{
+  gap: 5px;
   display: grid;
   display: none;
 
@@ -272,13 +302,13 @@ footer img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 150px;
+  width: 140px;
   height: 40px;
   background-color: rgb(60, 216, 232);
   border-style: none;
   border-radius: 32px;
   font-family: Raleway;
-  margin-top:-20px;
+  margin-top:-25px;
   margin-left: 60px;
   position: absolute;
   
@@ -288,7 +318,7 @@ footer img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 150px;
+  width: 140px;
   height: 32px;
   background-color:rgb(149, 178, 38);
   border-style: none;
@@ -303,7 +333,7 @@ footer img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 150px;
+  width: 140px;
   height: 32px;
   background-color:rgb(93, 88, 240);
   border-style: none;
@@ -413,6 +443,9 @@ footer img{
   .Standard-card-3{
     width: 100%;
   }
+  .arrow{
+    display: none;
+  }
   .small-card-1{
     text-align: center;
     width: 190px;
@@ -467,7 +500,7 @@ footer img{
   }
   .foot-item-container{
     display: grid;
-    background-color: rgb(1, 172, 253);
+    background-color: rgb(22, 236, 251);
     height: 1000px;
   }
 }
