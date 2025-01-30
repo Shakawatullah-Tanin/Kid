@@ -311,6 +311,7 @@ footer img{
   margin-top:-25px;
   margin-left: 60px;
   position: absolute;
+  color: white;
   
 }
 .date-2{
@@ -327,6 +328,7 @@ footer img{
   margin-top:-20px;
   margin-left: 32px;
   position: absolute;
+  color: white;
 }
 .date-3{
   display: flex;
@@ -342,6 +344,7 @@ footer img{
   margin-top:-20px;
   margin-left: 32px;
   position: absolute;
+  color: white;
 }
 .story-card-title{
   margin-top: 40px;
